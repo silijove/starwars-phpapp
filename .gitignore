@@ -1,3 +1,8 @@
 vendor/
 .env
 composer.lock
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/starwars-phpapp.iml
+.idea/workspace.xml
