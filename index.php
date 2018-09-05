@@ -70,7 +70,7 @@ if (isset($_REQUEST['logout'])) {
                 <img class="avatar" width="200" src="<?php echo $userInfo['picture'] ?>"/>
 
                 <h2>Welcome <span class="nickname"><?php echo $userInfo['nickname'] ?></span></h2>
-                <h2> Assigned Codename : <b><?php echo $starWarsNames[rand(0, 6)]; ?></b> </h2>
+                <h2> Assigned Codename : <b><?php echo $starWarsNames[rand(0, 5)]; ?></b> </h2>
                 <a class="btn btn-primary btn-lg" href="?logout">Logout</a>
               </div>
               <?php endif ?>
